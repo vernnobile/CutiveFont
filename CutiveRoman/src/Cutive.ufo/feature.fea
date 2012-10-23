@@ -1,0 +1,708 @@
+
+# GSUB 
+
+
+lookup ligaStandardLigatureslookup0 {
+  lookupflag 0;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+    sub \f \f  by \uniFB00;
+    sub \f \f \i  by \uniFB03;
+    sub \f \f \l  by \uniFB04;
+} ligaStandardLigatureslookup0;
+
+feature liga {
+
+  script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+  script grek;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+  script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+} liga;
+
+# GPOS 
+
+
+lookup markMarkPositioninglookup1 {
+  lookupflag 0;
+  markClass [\acute ] <anchor 65 1220> @top;
+  markClass [\breve ] <anchor 308 1220> @top;
+  markClass [\caron ] <anchor 299 1220> @top;
+  markClass [\circumflex ] <anchor 305 1220> @top;
+  markClass [\dieresis ] <anchor 445 1220> @top;
+  markClass [\dotaccent ] <anchor 152 -3> @top;
+  markClass [\grave ] <anchor 551 1220> @top;
+  markClass [\hungarumlaut ] <anchor 197 1220> @top;
+  markClass [\macron ] <anchor 521 1220> @top;
+  markClass [\ring ] <anchor 159 1220> @top;
+  markClass [\tilde ] <anchor 524 1220> @top;
+  markClass [\uni030F ] <anchor 710 1220> @top;
+  markClass [\uni0311 ] <anchor 302 1220> @top;
+  pos base [\A ] <anchor 1012 1714> mark @top;
+  pos base [\B ] <anchor 932 1714> mark @top;
+  pos base [\C ] <anchor 982 1714> mark @top;
+  pos base [\D \E \F \G \K \L \N ] <anchor 1022 1714> mark @top;
+  pos base [\H ] <anchor 1054 1714> mark @top;
+  pos base [\I ] <anchor 522 1714> mark @top;
+  pos base [\J ] <anchor 842 1714> mark @top;
+  pos base [\M ] <anchor 1252 1714> mark @top;
+  pos base [\O ] <anchor 987 1714> mark @top;
+  pos base [\P \Z ] <anchor 922 1714> mark @top;
+  pos base [\R ] <anchor 902 1714> mark @top;
+  pos base [\S ] <anchor 782 1714> mark @top;
+  pos base [\T ] <anchor 822 1714> mark @top;
+  pos base [\U ] <anchor 952 1714> mark @top;
+  pos base [\W ] <anchor 1202 1714> mark @top;
+  pos base [\Y ] <anchor 972 1714> mark @top;
+  pos base [\a ] <anchor 628 1133> mark @top;
+  pos base [\c ] <anchor 757 1133> mark @top;
+  pos base [\e ] <anchor 675 1133> mark @top;
+  pos base [\g ] <anchor 600 1133> mark @top;
+  pos base [\h \k \l \p \u ] <anchor 797 1133> mark @top;
+  pos base [\n ] <anchor 837 1133> mark @top;
+  pos base [\o ] <anchor 707 1133> mark @top;
+  pos base [\r ] <anchor 677 1133> mark @top;
+  pos base [\s \uni0237 ] <anchor 617 1133> mark @top;
+  pos base [\uni0209 ] <anchor 369 1133> mark @top;
+  pos base [\w ] <anchor 1007 1133> mark @top;
+  pos base [\y ] <anchor 744 1133> mark @top;
+  pos base [\z ] <anchor 709 1133> mark @top;
+} markMarkPositioninglookup1;
+
+lookup kernHorizontalKerninginLatinloo {
+  lookupflag 0;
+    pos \D \U -24;
+    pos \Dcaron \U -24;
+    pos \Dcroat \U -24;
+    pos \Eth \U -24;
+    pos \F \s -173;
+    pos \F \r -110;
+    pos \F \period -390;
+    pos \F \p -30;
+    pos \F \g -145;
+    pos \F \comma -400;
+    pos \J \period -270;
+    pos \J \comma -220;
+    pos \L \quoteright -330;
+    pos \L \quotedblright -460;
+    pos \O \U -24;
+    pos \Oacute \U -24;
+    pos \Obreve \U -24;
+    pos \Ocircumflex \U -24;
+    pos \Odieresis \U -24;
+    pos \Ograve \U -24;
+    pos \Ohungarumlaut \U -24;
+    pos \Omacron \U -24;
+    pos \Oslash \U -24;
+    pos \Otilde \U -24;
+    pos \Q \period -68;
+    pos \Q \comma -57;
+    pos \Q \U -24;
+    pos \a \p -31;
+    pos \a \b -50;
+    pos \c \l -14;
+    pos \c \k -19;
+    pos \c \h -19;
+    pos \c \b -37;
+    pos \e \x -29;
+    pos \e \b -11;
+    pos \f \period -80;
+    pos \f \f -80;
+    pos \f \comma -90;
+    pos \g \g -29;
+    pos \g \comma -80;
+    pos \uni020E \U -24;
+  subtable;
+    @kc3_first_1 = [\A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring 
+	\Atilde \uni0202 ];
+    @kc3_first_2 = [\B ];
+    @kc3_first_3 = [\D \Dcaron \Dcroat \Eth \O \Oacute \Obreve \Ocircumflex \Odieresis \Ograve 
+	\Ohungarumlaut \Omacron \Oslash \Otilde \Q \uni020E ];
+    @kc3_first_4 = [\Eng \H \M \N \Nacute \Ncaron \Ncommaaccent \Ntilde ];
+    @kc3_first_5 = [\F ];
+    @kc3_first_6 = [\J ];
+    @kc3_first_7 = [\K ];
+    @kc3_first_8 = [\L ];
+    @kc3_first_9 = [\P ];
+    @kc3_first_10 = [\R \Racute \Rcaron \Rcommaaccent \uni0212 ];
+    @kc3_first_11 = [\T \Tcaron \uni021A ];
+    @kc3_first_12 = [\U \Uacute \Ubreve \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron 
+	\Uogonek \Uring \Utilde \uni0216 ];
+    @kc3_first_13 = [\V ];
+    @kc3_first_14 = [\W ];
+    @kc3_first_15 = [\Y \Yacute \Ydieresis ];
+    @kc3_first_16 = [\a ];
+    @kc3_first_17 = [\b \o \oacute \obreve \ocircumflex \odieresis \ograve \ohungarumlaut \omacron 
+	\oslash \otilde \p \thorn \uni020F ];
+    @kc3_first_18 = [\ck \k \kcommaaccent \kgreenlandic ];
+    @kc3_first_19 = [\d ];
+    @kc3_first_20 = [\e ];
+    @kc3_first_21 = [\f ];
+    @kc3_first_22 = [\g ];
+    @kc3_first_23 = [\h \hbar \m \n \nacute \ncaron \ncommaaccent \ntilde ];
+    @kc3_first_24 = [\quotedblleft ];
+    @kc3_first_25 = [\quoteleft ];
+    @kc3_first_26 = [\r \racute \rcaron \rcommaaccent \uni0213 ];
+    @kc3_first_27 = [\v ];
+    @kc3_first_28 = [\w ];
+    @kc3_first_29 = [\y \yacute \ydieresis ];
+    @kc3_second_1 = [\A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring 
+	\Atilde \uni0202 ];
+    @kc3_second_2 = [\C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent \G \Gbreve \Gcommaaccent 
+	\Gdotaccent \O \OE \Oacute \Obreve \Ocircumflex \Odieresis \Ograve 
+	\Ohungarumlaut \Omacron \Oslash \Otilde \Q \uni020E ];
+    @kc3_second_3 = [\T \Tcaron \uni021A ];
+    @kc3_second_4 = [\U \Uacute \Ubreve \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron 
+	\Uogonek \Uring \Utilde \uni0216 ];
+    @kc3_second_5 = [\V ];
+    @kc3_second_6 = [\W ];
+    @kc3_second_7 = [\X ];
+    @kc3_second_8 = [\Y \Yacute \Ydieresis ];
+    @kc3_second_9 = [\a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring 
+	\atilde \uni0203 ];
+    @kc3_second_10 = [\b ];
+    @kc3_second_11 = [\c \cacute \ccaron \ccedilla \ccircumflex \cdotaccent \ck \ct \d \dcaron \dcroat \e 
+	\eacute \ecaron \ecircumflex \edieresis \edotaccent \egrave \emacron 
+	\eogonek \eth \o \oacute \obreve \ocircumflex \odieresis \oe \ograve 
+	\ohungarumlaut \omacron \oslash \otilde \q \uni0207 \uni020F ];
+    @kc3_second_12 = [\colon ];
+    @kc3_second_13 = [\comma ];
+    @kc3_second_14 = [\g ];
+    @kc3_second_15 = [\h ];
+    @kc3_second_16 = [\hyphen ];
+    @kc3_second_17 = [\i ];
+    @kc3_second_18 = [\k ];
+    @kc3_second_19 = [\l ];
+    @kc3_second_20 = [\m \n \nacute \ncaron \ncommaaccent \ntilde ];
+    @kc3_second_21 = [\p ];
+    @kc3_second_22 = [\period ];
+    @kc3_second_23 = [\quotedblright ];
+    @kc3_second_24 = [\quoteright ];
+    @kc3_second_25 = [\r ];
+    @kc3_second_26 = [\s ];
+    @kc3_second_27 = [\semicolon ];
+    @kc3_second_28 = [\u \uacute \ubreve \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron 
+	\uni0217 \uogonek \uring \utilde ];
+    @kc3_second_29 = [\v ];
+    @kc3_second_30 = [\w ];
+    @kc3_second_31 = [\x ];
+    @kc3_second_32 = [\y \yacute \ydieresis ];
+    @kc3_second_33 = [\z ];
+    pos @kc3_first_1 @kc3_second_2 -133;
+    pos @kc3_first_1 @kc3_second_3 -190;
+    pos @kc3_first_1 @kc3_second_4 -132;
+    pos @kc3_first_1 @kc3_second_5 -339;
+    pos @kc3_first_1 @kc3_second_6 -234;
+    pos @kc3_first_1 @kc3_second_8 -341;
+    pos @kc3_first_1 @kc3_second_23 -365;
+    pos @kc3_first_1 @kc3_second_24 -240;
+    pos @kc3_first_1 @kc3_second_28 -86;
+    pos @kc3_first_1 @kc3_second_29 -152;
+    pos @kc3_first_1 @kc3_second_30 -125;
+    pos @kc3_first_1 @kc3_second_32 -108;
+    pos @kc3_first_2 @kc3_second_1 -80;
+    pos @kc3_first_2 @kc3_second_4 -67;
+    pos @kc3_first_2 @kc3_second_13 -160;
+    pos @kc3_first_2 @kc3_second_22 -160;
+    pos @kc3_first_3 @kc3_second_1 -149;
+    pos @kc3_first_3 @kc3_second_4 -30;
+    pos @kc3_first_3 @kc3_second_5 -162;
+    pos @kc3_first_3 @kc3_second_6 -122;
+    pos @kc3_first_3 @kc3_second_7 -131;
+    pos @kc3_first_3 @kc3_second_8 -233;
+    pos @kc3_first_3 @kc3_second_13 -190;
+    pos @kc3_first_3 @kc3_second_22 -150;
+    pos @kc3_first_4 @kc3_second_1 -136;
+    pos @kc3_first_4 @kc3_second_13 -180;
+    pos @kc3_first_4 @kc3_second_22 -160;
+    pos @kc3_first_5 @kc3_second_1 -311;
+    pos @kc3_first_5 @kc3_second_9 -191;
+    pos @kc3_first_5 @kc3_second_11 -203;
+    pos @kc3_first_5 @kc3_second_20 -90;
+    pos @kc3_first_5 @kc3_second_28 -160;
+    pos @kc3_first_5 @kc3_second_32 -100;
+    pos @kc3_first_6 @kc3_second_1 -187;
+    pos @kc3_first_6 @kc3_second_9 -77;
+    pos @kc3_first_6 @kc3_second_11 -86;
+    pos @kc3_first_6 @kc3_second_28 -42;
+    pos @kc3_first_7 @kc3_second_2 -96;
+    pos @kc3_first_7 @kc3_second_11 -34;
+    pos @kc3_first_7 @kc3_second_28 -79;
+    pos @kc3_first_7 @kc3_second_29 -146;
+    pos @kc3_first_7 @kc3_second_30 -135;
+    pos @kc3_first_7 @kc3_second_32 -113;
+    pos @kc3_first_8 @kc3_second_3 -307;
+    pos @kc3_first_8 @kc3_second_5 -389;
+    pos @kc3_first_8 @kc3_second_6 -342;
+    pos @kc3_first_8 @kc3_second_8 -422;
+    pos @kc3_first_8 @kc3_second_32 -107;
+    pos @kc3_first_9 @kc3_second_1 -309;
+    pos @kc3_first_9 @kc3_second_9 -1;
+    pos @kc3_first_9 @kc3_second_11 -42;
+    pos @kc3_first_9 @kc3_second_13 -400;
+    pos @kc3_first_9 @kc3_second_14 -22;
+    pos @kc3_first_9 @kc3_second_22 -320;
+    pos @kc3_first_10 @kc3_second_2 -75;
+    pos @kc3_first_10 @kc3_second_3 -116;
+    pos @kc3_first_10 @kc3_second_4 -135;
+    pos @kc3_first_10 @kc3_second_5 -254;
+    pos @kc3_first_10 @kc3_second_6 -182;
+    pos @kc3_first_10 @kc3_second_8 -250;
+    pos @kc3_first_11 @kc3_second_1 -238;
+    pos @kc3_first_11 @kc3_second_2 -29;
+    pos @kc3_first_11 @kc3_second_9 -31;
+    pos @kc3_first_11 @kc3_second_11 -75;
+    pos @kc3_first_11 @kc3_second_13 -240;
+    pos @kc3_first_11 @kc3_second_14 -32;
+    pos @kc3_first_11 @kc3_second_16 -160;
+    pos @kc3_first_11 @kc3_second_21 -50;
+    pos @kc3_first_11 @kc3_second_22 -130;
+    pos @kc3_first_11 @kc3_second_26 -23;
+    pos @kc3_first_11 @kc3_second_28 -73;
+    pos @kc3_first_11 @kc3_second_29 -60;
+    pos @kc3_first_11 @kc3_second_30 -90;
+    pos @kc3_first_11 @kc3_second_32 -53;
+    pos @kc3_first_12 @kc3_second_1 -223;
+    pos @kc3_first_12 @kc3_second_13 -220;
+    pos @kc3_first_12 @kc3_second_22 -180;
+    pos @kc3_first_13 @kc3_second_1 -367;
+    pos @kc3_first_13 @kc3_second_2 -121;
+    pos @kc3_first_13 @kc3_second_9 -126;
+    pos @kc3_first_13 @kc3_second_11 -195;
+    pos @kc3_first_13 @kc3_second_13 -310;
+    pos @kc3_first_13 @kc3_second_14 -150;
+    pos @kc3_first_13 @kc3_second_16 -270;
+    pos @kc3_first_13 @kc3_second_17 -76;
+    pos @kc3_first_13 @kc3_second_20 -93;
+    pos @kc3_first_13 @kc3_second_21 -93;
+    pos @kc3_first_13 @kc3_second_22 -340;
+    pos @kc3_first_13 @kc3_second_25 -67;
+    pos @kc3_first_13 @kc3_second_26 -100;
+    pos @kc3_first_13 @kc3_second_27 -140;
+    pos @kc3_first_13 @kc3_second_28 -163;
+    pos @kc3_first_13 @kc3_second_32 -86;
+    pos @kc3_first_13 @kc3_second_33 -105;
+    pos @kc3_first_14 @kc3_second_1 -266;
+    pos @kc3_first_14 @kc3_second_2 -99;
+    pos @kc3_first_14 @kc3_second_9 -127;
+    pos @kc3_first_14 @kc3_second_11 -151;
+    pos @kc3_first_14 @kc3_second_12 -150;
+    pos @kc3_first_14 @kc3_second_13 -290;
+    pos @kc3_first_14 @kc3_second_14 -156;
+    pos @kc3_first_14 @kc3_second_16 -260;
+    pos @kc3_first_14 @kc3_second_17 -37;
+    pos @kc3_first_14 @kc3_second_21 -113;
+    pos @kc3_first_14 @kc3_second_22 -310;
+    pos @kc3_first_14 @kc3_second_25 -54;
+    pos @kc3_first_14 @kc3_second_26 -110;
+    pos @kc3_first_14 @kc3_second_27 -70;
+    pos @kc3_first_14 @kc3_second_28 -111;
+    pos @kc3_first_14 @kc3_second_32 -96;
+    pos @kc3_first_15 @kc3_second_1 -279;
+    pos @kc3_first_15 @kc3_second_2 -163;
+    pos @kc3_first_15 @kc3_second_9 -134;
+    pos @kc3_first_15 @kc3_second_11 -163;
+    pos @kc3_first_15 @kc3_second_12 -180;
+    pos @kc3_first_15 @kc3_second_13 -264;
+    pos @kc3_first_15 @kc3_second_14 -124;
+    pos @kc3_first_15 @kc3_second_16 -350;
+    pos @kc3_first_15 @kc3_second_17 -90;
+    pos @kc3_first_15 @kc3_second_20 -125;
+    pos @kc3_first_15 @kc3_second_21 -163;
+    pos @kc3_first_15 @kc3_second_22 -275;
+    pos @kc3_first_15 @kc3_second_25 -159;
+    pos @kc3_first_15 @kc3_second_26 -154;
+    pos @kc3_first_15 @kc3_second_27 -110;
+    pos @kc3_first_15 @kc3_second_28 -193;
+    pos @kc3_first_15 @kc3_second_29 -157;
+    pos @kc3_first_15 @kc3_second_30 -165;
+    pos @kc3_first_15 @kc3_second_33 -130;
+    pos @kc3_first_16 @kc3_second_29 -77;
+    pos @kc3_first_16 @kc3_second_30 -104;
+    pos @kc3_first_16 @kc3_second_32 -123;
+    pos @kc3_first_17 @kc3_second_10 -47;
+    pos @kc3_first_17 @kc3_second_13 -110;
+    pos @kc3_first_17 @kc3_second_19 -74;
+    pos @kc3_first_17 @kc3_second_22 -120;
+    pos @kc3_first_17 @kc3_second_28 -23;
+    pos @kc3_first_17 @kc3_second_29 -11;
+    pos @kc3_first_17 @kc3_second_30 -16;
+    pos @kc3_first_17 @kc3_second_31 -14;
+    pos @kc3_first_17 @kc3_second_32 -6;
+    pos @kc3_first_18 @kc3_second_11 -13;
+    pos @kc3_first_19 @kc3_second_11 -66;
+    pos @kc3_first_19 @kc3_second_29 -78;
+    pos @kc3_first_19 @kc3_second_30 -83;
+    pos @kc3_first_19 @kc3_second_32 -79;
+    pos @kc3_first_20 @kc3_second_29 -22;
+    pos @kc3_first_20 @kc3_second_30 -26;
+    pos @kc3_first_20 @kc3_second_32 -7;
+    pos @kc3_first_21 @kc3_second_9 -18;
+    pos @kc3_first_21 @kc3_second_11 -25;
+    pos @kc3_first_22 @kc3_second_9 -29;
+    pos @kc3_first_22 @kc3_second_11 -43;
+    pos @kc3_first_23 @kc3_second_28 -29;
+    pos @kc3_first_23 @kc3_second_29 -36;
+    pos @kc3_first_23 @kc3_second_32 -66;
+    pos @kc3_first_24 @kc3_second_1 -310;
+    pos @kc3_first_25 @kc3_second_1 -260;
+    pos @kc3_first_26 @kc3_second_11 -31;
+    pos @kc3_first_26 @kc3_second_13 -106;
+    pos @kc3_first_26 @kc3_second_18 -48;
+    pos @kc3_first_26 @kc3_second_22 -140;
+    pos @kc3_first_26 @kc3_second_26 -11;
+    pos @kc3_first_27 @kc3_second_9 -24;
+    pos @kc3_first_27 @kc3_second_11 -14;
+    pos @kc3_first_27 @kc3_second_13 -220;
+    pos @kc3_first_27 @kc3_second_22 -210;
+    pos @kc3_first_28 @kc3_second_9 -9;
+    pos @kc3_first_28 @kc3_second_11 -18;
+    pos @kc3_first_28 @kc3_second_13 -230;
+    pos @kc3_first_28 @kc3_second_15 -60;
+    pos @kc3_first_28 @kc3_second_22 -230;
+    pos @kc3_first_29 @kc3_second_9 -8;
+    pos @kc3_first_29 @kc3_second_11 -20;
+    pos @kc3_first_29 @kc3_second_13 -140;
+    pos @kc3_first_29 @kc3_second_22 -200;
+  subtable;
+    @kc4_first_1 = [\A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring 
+	\Atilde \uni0202 ];
+    @kc4_first_2 = [\B ];
+    @kc4_first_3 = [\D \Dcaron \Dcroat \Eth \O \Oacute \Obreve \Ocircumflex \Odieresis \Ograve 
+	\Ohungarumlaut \Omacron \Oslash \Otilde \Q \uni020E ];
+    @kc4_first_4 = [\Eng \H \M \N \Nacute \Ncaron \Ncommaaccent \Ntilde ];
+    @kc4_first_5 = [\F ];
+    @kc4_first_6 = [\J ];
+    @kc4_first_7 = [\K ];
+    @kc4_first_8 = [\L ];
+    @kc4_first_9 = [\P ];
+    @kc4_first_10 = [\R \Racute \Rcaron \Rcommaaccent \uni0212 ];
+    @kc4_first_11 = [\T \Tcaron \Tcommaaccent \uni021A ];
+    @kc4_first_12 = [\U \Uacute \Ubreve \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron 
+	\Uogonek \Uring \Utilde \uni0216 ];
+    @kc4_first_13 = [\V ];
+    @kc4_first_14 = [\W ];
+    @kc4_first_15 = [\Y \Yacute \Ydieresis ];
+    @kc4_first_16 = [\a ];
+    @kc4_first_17 = [\b \o \oacute \obreve \ocircumflex \odieresis \ograve \ohungarumlaut \omacron 
+	\oslash \otilde \p \thorn \uni020F ];
+    @kc4_first_18 = [\ck \k \kcommaaccent \kgreenlandic ];
+    @kc4_first_19 = [\d ];
+    @kc4_first_20 = [\e ];
+    @kc4_first_21 = [\f ];
+    @kc4_first_22 = [\g ];
+    @kc4_first_23 = [\h \hbar \m \n \nacute \ncaron \ncommaaccent \ntilde ];
+    @kc4_first_24 = [\quotedblleft ];
+    @kc4_first_25 = [\quoteleft ];
+    @kc4_first_26 = [\r \racute \rcaron \rcommaaccent \uni0213 ];
+    @kc4_first_27 = [\v ];
+    @kc4_first_28 = [\w ];
+    @kc4_first_29 = [\y \yacute \ydieresis ];
+    @kc4_second_1 = [\A \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron \Aogonek \Aring 
+	\Atilde \uni0202 ];
+    @kc4_second_2 = [\C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent \G \Gbreve \Gcommaaccent 
+	\Gdotaccent \O \OE \Oacute \Obreve \Ocircumflex \Odieresis \Ograve 
+	\Ohungarumlaut \Omacron \Oslash \Otilde \Q \uni020E ];
+    @kc4_second_3 = [\T \Tcaron \Tcommaaccent \uni021A ];
+    @kc4_second_4 = [\U \Uacute \Ubreve \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron 
+	\Uogonek \Uring \Utilde \uni0216 ];
+    @kc4_second_5 = [\V ];
+    @kc4_second_6 = [\W ];
+    @kc4_second_7 = [\X ];
+    @kc4_second_8 = [\Y \Yacute \Ydieresis ];
+    @kc4_second_9 = [\a \aacute \abreve \acircumflex \adieresis \ae \agrave \amacron \aogonek \aring 
+	\atilde \uni0203 ];
+    @kc4_second_10 = [\b ];
+    @kc4_second_11 = [\c \cacute \ccaron \ccedilla \ccircumflex \cdotaccent \ck \ct \d \dcaron \dcroat \e 
+	\eacute \ecaron \ecircumflex \edieresis \edotaccent \egrave \emacron 
+	\eogonek \eth \o \oacute \obreve \ocircumflex \odieresis \oe \ograve 
+	\ohungarumlaut \omacron \oslash \otilde \q \uni0207 \uni020F ];
+    @kc4_second_12 = [\colon ];
+    @kc4_second_13 = [\comma ];
+    @kc4_second_14 = [\g ];
+    @kc4_second_15 = [\h ];
+    @kc4_second_16 = [\hyphen ];
+    @kc4_second_17 = [\i ];
+    @kc4_second_18 = [\k ];
+    @kc4_second_19 = [\l ];
+    @kc4_second_20 = [\m \n \nacute \ncaron \ncommaaccent \ntilde ];
+    @kc4_second_21 = [\p ];
+    @kc4_second_22 = [\period ];
+    @kc4_second_23 = [\quotedblright ];
+    @kc4_second_24 = [\quoteright ];
+    @kc4_second_25 = [\r ];
+    @kc4_second_26 = [\s ];
+    @kc4_second_27 = [\semicolon ];
+    @kc4_second_28 = [\u \uacute \ubreve \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron 
+	\uni0217 \uogonek \uring \utilde ];
+    @kc4_second_29 = [\v ];
+    @kc4_second_30 = [\w ];
+    @kc4_second_31 = [\x ];
+    @kc4_second_32 = [\y \yacute \ydieresis ];
+    @kc4_second_33 = [\z ];
+    pos @kc4_first_1 @kc4_second_2 -133;
+    pos @kc4_first_1 @kc4_second_3 -190;
+    pos @kc4_first_1 @kc4_second_4 -132;
+    pos @kc4_first_1 @kc4_second_5 -339;
+    pos @kc4_first_1 @kc4_second_6 -234;
+    pos @kc4_first_1 @kc4_second_8 -341;
+    pos @kc4_first_1 @kc4_second_23 -365;
+    pos @kc4_first_1 @kc4_second_24 -240;
+    pos @kc4_first_1 @kc4_second_28 -86;
+    pos @kc4_first_1 @kc4_second_29 -152;
+    pos @kc4_first_1 @kc4_second_30 -125;
+    pos @kc4_first_1 @kc4_second_32 -108;
+    pos @kc4_first_2 @kc4_second_1 -80;
+    pos @kc4_first_2 @kc4_second_4 -67;
+    pos @kc4_first_2 @kc4_second_13 -160;
+    pos @kc4_first_2 @kc4_second_22 -160;
+    pos @kc4_first_3 @kc4_second_1 -149;
+    pos @kc4_first_3 @kc4_second_4 -30;
+    pos @kc4_first_3 @kc4_second_5 -162;
+    pos @kc4_first_3 @kc4_second_6 -122;
+    pos @kc4_first_3 @kc4_second_7 -131;
+    pos @kc4_first_3 @kc4_second_8 -233;
+    pos @kc4_first_3 @kc4_second_13 -190;
+    pos @kc4_first_3 @kc4_second_22 -150;
+    pos @kc4_first_4 @kc4_second_1 -136;
+    pos @kc4_first_4 @kc4_second_13 -180;
+    pos @kc4_first_4 @kc4_second_22 -160;
+    pos @kc4_first_5 @kc4_second_1 -311;
+    pos @kc4_first_5 @kc4_second_9 -191;
+    pos @kc4_first_5 @kc4_second_11 -203;
+    pos @kc4_first_5 @kc4_second_20 -90;
+    pos @kc4_first_5 @kc4_second_28 -160;
+    pos @kc4_first_5 @kc4_second_32 -100;
+    pos @kc4_first_6 @kc4_second_1 -187;
+    pos @kc4_first_6 @kc4_second_9 -77;
+    pos @kc4_first_6 @kc4_second_11 -86;
+    pos @kc4_first_6 @kc4_second_28 -42;
+    pos @kc4_first_7 @kc4_second_2 -96;
+    pos @kc4_first_7 @kc4_second_11 -34;
+    pos @kc4_first_7 @kc4_second_28 -79;
+    pos @kc4_first_7 @kc4_second_29 -146;
+    pos @kc4_first_7 @kc4_second_30 -135;
+    pos @kc4_first_7 @kc4_second_32 -113;
+    pos @kc4_first_8 @kc4_second_3 -307;
+    pos @kc4_first_8 @kc4_second_5 -389;
+    pos @kc4_first_8 @kc4_second_6 -342;
+    pos @kc4_first_8 @kc4_second_8 -422;
+    pos @kc4_first_8 @kc4_second_32 -107;
+    pos @kc4_first_9 @kc4_second_1 -309;
+    pos @kc4_first_9 @kc4_second_9 -1;
+    pos @kc4_first_9 @kc4_second_11 -42;
+    pos @kc4_first_9 @kc4_second_13 -400;
+    pos @kc4_first_9 @kc4_second_14 -22;
+    pos @kc4_first_9 @kc4_second_22 -320;
+    pos @kc4_first_10 @kc4_second_2 -75;
+    pos @kc4_first_10 @kc4_second_3 -116;
+    pos @kc4_first_10 @kc4_second_4 -135;
+    pos @kc4_first_10 @kc4_second_5 -254;
+    pos @kc4_first_10 @kc4_second_6 -182;
+    pos @kc4_first_10 @kc4_second_8 -250;
+    pos @kc4_first_11 @kc4_second_1 -238;
+    pos @kc4_first_11 @kc4_second_2 -29;
+    pos @kc4_first_11 @kc4_second_9 -31;
+    pos @kc4_first_11 @kc4_second_11 -75;
+    pos @kc4_first_11 @kc4_second_13 -240;
+    pos @kc4_first_11 @kc4_second_14 -32;
+    pos @kc4_first_11 @kc4_second_16 -160;
+    pos @kc4_first_11 @kc4_second_21 -50;
+    pos @kc4_first_11 @kc4_second_22 -130;
+    pos @kc4_first_11 @kc4_second_26 -23;
+    pos @kc4_first_11 @kc4_second_28 -73;
+    pos @kc4_first_11 @kc4_second_29 -60;
+    pos @kc4_first_11 @kc4_second_30 -90;
+    pos @kc4_first_11 @kc4_second_32 -53;
+    pos @kc4_first_12 @kc4_second_1 -223;
+    pos @kc4_first_12 @kc4_second_13 -220;
+    pos @kc4_first_12 @kc4_second_22 -180;
+    pos @kc4_first_13 @kc4_second_1 -367;
+    pos @kc4_first_13 @kc4_second_2 -121;
+    pos @kc4_first_13 @kc4_second_9 -126;
+    pos @kc4_first_13 @kc4_second_11 -195;
+    pos @kc4_first_13 @kc4_second_13 -310;
+    pos @kc4_first_13 @kc4_second_14 -150;
+    pos @kc4_first_13 @kc4_second_16 -270;
+    pos @kc4_first_13 @kc4_second_17 -76;
+    pos @kc4_first_13 @kc4_second_20 -93;
+    pos @kc4_first_13 @kc4_second_21 -93;
+    pos @kc4_first_13 @kc4_second_22 -340;
+    pos @kc4_first_13 @kc4_second_25 -67;
+    pos @kc4_first_13 @kc4_second_26 -100;
+    pos @kc4_first_13 @kc4_second_27 -140;
+    pos @kc4_first_13 @kc4_second_28 -163;
+    pos @kc4_first_13 @kc4_second_32 -86;
+    pos @kc4_first_13 @kc4_second_33 -105;
+    pos @kc4_first_14 @kc4_second_1 -266;
+    pos @kc4_first_14 @kc4_second_2 -99;
+    pos @kc4_first_14 @kc4_second_9 -127;
+    pos @kc4_first_14 @kc4_second_11 -151;
+    pos @kc4_first_14 @kc4_second_12 -150;
+    pos @kc4_first_14 @kc4_second_13 -290;
+    pos @kc4_first_14 @kc4_second_14 -156;
+    pos @kc4_first_14 @kc4_second_16 -260;
+    pos @kc4_first_14 @kc4_second_17 -37;
+    pos @kc4_first_14 @kc4_second_21 -113;
+    pos @kc4_first_14 @kc4_second_22 -310;
+    pos @kc4_first_14 @kc4_second_25 -54;
+    pos @kc4_first_14 @kc4_second_26 -110;
+    pos @kc4_first_14 @kc4_second_27 -70;
+    pos @kc4_first_14 @kc4_second_28 -111;
+    pos @kc4_first_14 @kc4_second_32 -96;
+    pos @kc4_first_15 @kc4_second_1 -279;
+    pos @kc4_first_15 @kc4_second_2 -163;
+    pos @kc4_first_15 @kc4_second_9 -134;
+    pos @kc4_first_15 @kc4_second_11 -163;
+    pos @kc4_first_15 @kc4_second_12 -180;
+    pos @kc4_first_15 @kc4_second_13 -264;
+    pos @kc4_first_15 @kc4_second_14 -124;
+    pos @kc4_first_15 @kc4_second_16 -350;
+    pos @kc4_first_15 @kc4_second_17 -90;
+    pos @kc4_first_15 @kc4_second_20 -125;
+    pos @kc4_first_15 @kc4_second_21 -163;
+    pos @kc4_first_15 @kc4_second_22 -275;
+    pos @kc4_first_15 @kc4_second_25 -159;
+    pos @kc4_first_15 @kc4_second_26 -154;
+    pos @kc4_first_15 @kc4_second_27 -110;
+    pos @kc4_first_15 @kc4_second_28 -193;
+    pos @kc4_first_15 @kc4_second_29 -157;
+    pos @kc4_first_15 @kc4_second_30 -165;
+    pos @kc4_first_15 @kc4_second_33 -130;
+    pos @kc4_first_16 @kc4_second_29 -77;
+    pos @kc4_first_16 @kc4_second_30 -104;
+    pos @kc4_first_16 @kc4_second_32 -123;
+    pos @kc4_first_17 @kc4_second_10 -47;
+    pos @kc4_first_17 @kc4_second_13 -110;
+    pos @kc4_first_17 @kc4_second_19 -74;
+    pos @kc4_first_17 @kc4_second_22 -120;
+    pos @kc4_first_17 @kc4_second_28 -23;
+    pos @kc4_first_17 @kc4_second_29 -11;
+    pos @kc4_first_17 @kc4_second_30 -16;
+    pos @kc4_first_17 @kc4_second_31 -14;
+    pos @kc4_first_17 @kc4_second_32 -6;
+    pos @kc4_first_18 @kc4_second_11 -13;
+    pos @kc4_first_19 @kc4_second_11 -66;
+    pos @kc4_first_19 @kc4_second_29 -78;
+    pos @kc4_first_19 @kc4_second_30 -83;
+    pos @kc4_first_19 @kc4_second_32 -79;
+    pos @kc4_first_20 @kc4_second_29 -22;
+    pos @kc4_first_20 @kc4_second_30 -26;
+    pos @kc4_first_20 @kc4_second_32 -7;
+    pos @kc4_first_21 @kc4_second_9 -18;
+    pos @kc4_first_21 @kc4_second_11 -25;
+    pos @kc4_first_22 @kc4_second_9 -29;
+    pos @kc4_first_22 @kc4_second_11 -43;
+    pos @kc4_first_23 @kc4_second_28 -29;
+    pos @kc4_first_23 @kc4_second_29 -36;
+    pos @kc4_first_23 @kc4_second_32 -66;
+    pos @kc4_first_24 @kc4_second_1 -310;
+    pos @kc4_first_25 @kc4_second_1 -260;
+    pos @kc4_first_26 @kc4_second_11 -31;
+    pos @kc4_first_26 @kc4_second_13 -106;
+    pos @kc4_first_26 @kc4_second_18 -48;
+    pos @kc4_first_26 @kc4_second_22 -140;
+    pos @kc4_first_26 @kc4_second_26 -11;
+    pos @kc4_first_27 @kc4_second_9 -24;
+    pos @kc4_first_27 @kc4_second_11 -14;
+    pos @kc4_first_27 @kc4_second_13 -220;
+    pos @kc4_first_27 @kc4_second_22 -210;
+    pos @kc4_first_28 @kc4_second_9 -9;
+    pos @kc4_first_28 @kc4_second_11 -18;
+    pos @kc4_first_28 @kc4_second_13 -230;
+    pos @kc4_first_28 @kc4_second_15 -60;
+    pos @kc4_first_28 @kc4_second_22 -230;
+    pos @kc4_first_29 @kc4_second_9 -8;
+    pos @kc4_first_29 @kc4_second_11 -20;
+    pos @kc4_first_29 @kc4_second_13 -140;
+    pos @kc4_first_29 @kc4_second_22 -200;
+} kernHorizontalKerninginLatinloo;
+
+feature mark {
+
+  script DFLT;
+     language dflt ;
+      lookup markMarkPositioninglookup1;
+
+  script grek;
+     language dflt ;
+      lookup markMarkPositioninglookup1;
+
+  script latn;
+     language dflt ;
+      lookup markMarkPositioninglookup1;
+} mark;
+
+feature kern {
+
+  script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinloo;
+
+  script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinloo;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
+	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
+	\D \Dcaron \Dcroat \E \Eacute \Ecaron \Ecircumflex \Edieresis \Edotaccent \Egrave 
+	\Emacron \Eng \Eogonek \Eth \Euro \F \G \Gbreve \Gcircumflex \Gcommaaccent 
+	\Gdotaccent \H \Hbar \Hcircumflex \I \IJ \Iacute \Ibreve \Icircumflex \Idieresis 
+	\Idotaccent \Igrave \Imacron \Iogonek \Itilde \J \Jcircumflex \K \Kcommaaccent \L 
+	\Lacute \Lcaron \Lcommaaccent \Ldot \Lslash \M \N \Nacute \Ncaron \Ncommaaccent 
+	\Ntilde \O \OE \Oacute \Obreve \Ocircumflex \Odieresis \Ograve \Ohungarumlaut 
+	\Omacron \Oslash \Otilde \P \Q \R \Racute \Rcaron \Rcommaaccent \S \Sacute \Scaron 
+	\Scedilla \Scircumflex \Scommaaccent \T \Tcaron \Tcommaaccent \Thorn \U \Uacute 
+	\Ubreve \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring 
+	\Utilde \V \W \X \Y \Yacute \Ydieresis \Z \Zacute \Zcaron \Zdotaccent \a \aacute 
+	\abreve \acircumflex \adieresis \ae \agrave \amacron \ampersand \aogonek \aring 
+	\asciicircum \asciitilde \asterisk \at \atilde \b \backslash \bar \braceleft 
+	\braceright \bracketleft \bracketright \brokenbar \bullet \c \cacute \ccaron 
+	\ccedilla \ccircumflex \cdotaccent \cedilla \cent \ck \colon \comma \copyright 
+	\ct \currency \d \dagger \daggerdbl \dcaron \dcroat \degree \divide \dollar 
+	\dotlessi \e \eacute \ebreve \ecaron \ecircumflex \edieresis \edotaccent \egrave 
+	\eight \ellipsis \emacron \emdash \endash \eng \eogonek \equal \eth \exclam 
+	\exclamdown \f \five \florin \foundryicon \four \fraction \g \gbreve \gcircumflex 
+	\gcommaaccent \gdotaccent \germandbls \greater \guillemotleft \guillemotright 
+	\guilsinglleft \guilsinglright \h \hbar \hcircumflex \hyphen \i \iacute \ibreve 
+	\icircumflex \idieresis \igrave \ij \imacron \iogonek \itilde \j \jcircumflex \k 
+	\kcommaaccent \kgreenlandic \l \lacute \lcaron \lcommaaccent \ldot \less 
+	\logicalnot \lslash \m \minus \mu \multiply \n \nacute \ncaron \ncommaaccent \nine 
+	\nonmarkingreturn \ntilde \numbersign \o \oacute \obreve \ocircumflex 
+	\odieresis \oe \ogonek \ograve \ohungarumlaut \omacron \one \onehalf \onequarter 
+	\ordfeminine \ordmasculine \oslash \otilde \p \paragraph \parenleft \parenright 
+	\percent \period \periodcentered \plus \plusminus \q \question \questiondown 
+	\quotedbl \quotedblbase \quotedblleft \quotedblright \quoteleft \quoteright 
+	\quotesinglbase \quotesingle \r \racute \rcaron \rcommaaccent \registered \s 
+	\sacute \scaron \scedilla \scircumflex \scommaaccent \section \semicolon \seven 
+	\six \slash \space \st \sterling \t \tcaron \tcommaaccent \thorn \three 
+	\threequarters \trademark \two \u \uacute \ubreve \ucircumflex \udieresis 
+	\ugrave \uhungarumlaut \umacron \underscore \uni0091 \uni0092 \uni0093 \uni0094 
+	\uni009A \uni009B \uni009D \uni00AD \uni00B2 \uni00B3 \uni00B9 \uni01C4 \uni01C5 
+	\uni01C6 \uni01C7 \uni01C8 \uni01C9 \uni01CA \uni01CB \uni01CC \uni01F1 \uni01F2 
+	\uni01F3 \uni01F4 \uni01F5 \uni0200 \uni0201 \uni0202 \uni0203 \uni0204 \uni0205 
+	\uni0206 \uni0207 \uni0208 \uni0209 \uni020A \uni020B \uni020C \uni020D \uni020E 
+	\uni020F \uni0210 \uni0211 \uni0212 \uni0213 \uni0214 \uni0215 \uni0216 \uni0217 
+	\uni021A \uni021B \uni0237 \uni0307 \uni0326 \uni2206 \uogonek \uring \utilde \v 
+	\w \x \y \yacute \ydieresis \yen \z \zacute \zcaron \zdotaccent \zero \Wcircumflex 
+	\wcircumflex \Ycircumflex \ycircumflex \Ebreve \uni1E1E \uni1E1F \uni1E40 
+	\uni1E41 \uni1E56 \uni1E57 \uni1E60 \uni1E61 \uni1E6A \uni1E6B \Wgrave \wgrave 
+	\Wacute \wacute \Wdieresis \wdieresis \Ygrave \ygrave \uni1E02 \uni1E03 \uni1E0A 
+	\uni1E0B \uni00B5 ];
+@GDEF_Ligature = [\uniFB01 \uniFB02 \uniFB00 \uniFB03 \uniFB04 ];
+@GDEF_Mark = [\acute \breve \caron \circumflex \dieresis \dotaccent \grave 
+	\hungarumlaut \macron \ring \tilde \uni030F \uni0311 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+

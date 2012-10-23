@@ -1,0 +1,19 @@
+
+lookup ligaStandardLigaturesinLatinloo {
+  lookupflag 0;
+    sub \f \f \i  by \ffi;
+    sub \f \f \l  by \ffl;
+    sub \f \i  by \uniFB01;
+    sub \f \l  by \uniFB02;
+    sub \f \f  by \ff;
+} ligaStandardLigaturesinLatinloo;
+
+feature liga {
+  script latn;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinloo;
+  script DFLT;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinloo;
+
+} liga;
