@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zacute" format="1">
+  <advance width="1240"/>
+  <unicode hex="0179"/>
+  <outline>
+    <contour>
+      <point x="938.015625" y="1611" type="curve" smooth="yes"/>
+      <point x="967.015625" y="1611"/>
+      <point x="995.015625" y="1582"/>
+      <point x="995.015625" y="1554" type="curve" smooth="yes"/>
+      <point x="995.015625" y="1542"/>
+      <point x="990.015625" y="1531"/>
+      <point x="978.015625" y="1523" type="curve" smooth="yes"/>
+      <point x="870.015625" y="1455"/>
+      <point x="749.015625" y="1377"/>
+      <point x="638.015625" y="1313" type="curve" smooth="yes"/>
+      <point x="633.015625" y="1310"/>
+      <point x="628.015625" y="1309"/>
+      <point x="625.015625" y="1309" type="curve" smooth="yes"/>
+      <point x="607.015625" y="1309"/>
+      <point x="591.015625" y="1327"/>
+      <point x="591.015625" y="1344" type="curve" smooth="yes"/>
+      <point x="591.015625" y="1354"/>
+      <point x="595.015625" y="1360"/>
+      <point x="603.015625" y="1365" type="curve" smooth="yes"/>
+      <point x="705.015625" y="1433"/>
+      <point x="817.015625" y="1521"/>
+      <point x="910.015625" y="1601" type="curve" smooth="yes"/>
+      <point x="918.015625" y="1608"/>
+      <point x="927.015625" y="1611"/>
+    </contour>
+    <contour>
+      <point x="254.0" y="806" type="curve" smooth="yes"/>
+      <point x="254.0" y="1116" type="line" smooth="yes"/>
+      <point x="255.0" y="1144"/>
+      <point x="271.0" y="1171"/>
+      <point x="322.0" y="1171" type="curve" smooth="yes"/>
+      <point x="952.0" y="1171" type="line" smooth="yes"/>
+      <point x="984.0" y="1171"/>
+      <point x="1001.0" y="1144"/>
+      <point x="1001.0" y="1116" type="curve" smooth="yes"/>
+      <point x="1001.0" y="1104"/>
+      <point x="998.0" y="1092"/>
+      <point x="991.0" y="1081" type="curve" smooth="yes"/>
+      <point x="369.0" y="86" type="line"/>
+      <point x="942.0" y="86" type="line"/>
+      <point x="942.0" y="384" type="line"/>
+      <point x="944.0" y="416"/>
+      <point x="970.0" y="435"/>
+      <point x="993.0" y="435" type="curve" smooth="yes"/>
+      <point x="1014.0" y="435"/>
+      <point x="1034.0" y="420"/>
+      <point x="1034.0" y="385" type="curve" smooth="yes"/>
+      <point x="1044.0" y="53" type="line" smooth="yes"/>
+      <point x="1045.0" y="19"/>
+      <point x="1022.0" y="0"/>
+      <point x="993.0" y="0" type="curve" smooth="yes"/>
+      <point x="271.0" y="0" type="line" smooth="yes"/>
+      <point x="232.0" y="0"/>
+      <point x="219.0" y="14"/>
+      <point x="219.0" y="31" type="curve" smooth="yes"/>
+      <point x="219.0" y="53"/>
+      <point x="239.0" y="81"/>
+      <point x="247.0" y="95" type="curve" smooth="yes"/>
+      <point x="880.0" y="1085" type="line"/>
+      <point x="366.0" y="1085" type="line"/>
+      <point x="350.0" y="797" type="line" smooth="yes"/>
+      <point x="349.0" y="770"/>
+      <point x="327.0" y="757"/>
+      <point x="305.0" y="757" type="curve" smooth="yes"/>
+      <point x="280.0" y="757"/>
+      <point x="254.0" y="774"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>b</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Zacute</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1240</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

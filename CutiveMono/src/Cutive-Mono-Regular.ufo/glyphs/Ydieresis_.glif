@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis" format="1">
+  <advance width="1240"/>
+  <unicode hex="0178"/>
+  <outline>
+    <contour>
+      <point x="452.5" y="1309" type="curve" smooth="yes"/>
+      <point x="402.5" y="1309"/>
+      <point x="361.5" y="1350"/>
+      <point x="361.5" y="1400" type="curve" smooth="yes"/>
+      <point x="361.5" y="1450"/>
+      <point x="402.5" y="1491"/>
+      <point x="452.5" y="1491" type="curve" smooth="yes"/>
+      <point x="502.5" y="1491"/>
+      <point x="543.5" y="1450"/>
+      <point x="543.5" y="1400" type="curve" smooth="yes"/>
+      <point x="543.5" y="1350"/>
+      <point x="502.5" y="1309"/>
+    </contour>
+    <contour>
+      <point x="787.5" y="1309" type="curve" smooth="yes"/>
+      <point x="737.5" y="1309"/>
+      <point x="697.5" y="1350"/>
+      <point x="697.5" y="1400" type="curve" smooth="yes"/>
+      <point x="697.5" y="1450"/>
+      <point x="737.5" y="1491"/>
+      <point x="787.5" y="1491" type="curve" smooth="yes"/>
+      <point x="837.5" y="1491"/>
+      <point x="878.5" y="1450"/>
+      <point x="878.5" y="1400" type="curve" smooth="yes"/>
+      <point x="878.5" y="1350"/>
+      <point x="837.5" y="1309"/>
+    </contour>
+    <contour>
+      <point x="1065.0" y="1171" type="line" smooth="yes"/>
+      <point x="1099.0" y="1171"/>
+      <point x="1116.0" y="1151"/>
+      <point x="1116.0" y="1132" type="curve" smooth="yes"/>
+      <point x="1116.0" y="1113"/>
+      <point x="1100.0" y="1095"/>
+      <point x="1067.0" y="1095" type="curve" smooth="yes"/>
+      <point x="1012.0" y="1095" type="line"/>
+      <point x="689.0" y="548" type="line"/>
+      <point x="689.0" y="86" type="line"/>
+      <point x="921.0" y="86" type="line" smooth="yes"/>
+      <point x="953.0" y="86"/>
+      <point x="969.0" y="65"/>
+      <point x="969.0" y="44" type="curve" smooth="yes"/>
+      <point x="969.0" y="22"/>
+      <point x="952.0" y="0"/>
+      <point x="919.0" y="0" type="curve" smooth="yes"/>
+      <point x="334.0" y="0" type="line" smooth="yes"/>
+      <point x="300.0" y="0"/>
+      <point x="282.0" y="22"/>
+      <point x="282.0" y="44" type="curve" smooth="yes"/>
+      <point x="282.0" y="65"/>
+      <point x="299.0" y="86"/>
+      <point x="332.0" y="86" type="curve" smooth="yes"/>
+      <point x="593.0" y="86" type="line"/>
+      <point x="593.0" y="553" type="line"/>
+      <point x="258.0" y="1095" type="line"/>
+      <point x="174.0" y="1095" type="line" smooth="yes"/>
+      <point x="141.0" y="1095"/>
+      <point x="124.0" y="1114"/>
+      <point x="124.0" y="1133" type="curve" smooth="yes"/>
+      <point x="124.0" y="1152"/>
+      <point x="142.0" y="1171"/>
+      <point x="175.0" y="1171" type="curve" smooth="yes"/>
+      <point x="505.0" y="1171" type="line" smooth="yes"/>
+      <point x="539.0" y="1171"/>
+      <point x="556.0" y="1152"/>
+      <point x="556.0" y="1133" type="curve" smooth="yes"/>
+      <point x="556.0" y="1114"/>
+      <point x="539.0" y="1095"/>
+      <point x="506.0" y="1095" type="curve" smooth="yes"/>
+      <point x="370.0" y="1095" type="line"/>
+      <point x="646.0" y="633" type="line"/>
+      <point x="914.0" y="1095" type="line"/>
+      <point x="803.0" y="1095" type="line" smooth="yes"/>
+      <point x="770.0" y="1095"/>
+      <point x="753.0" y="1114"/>
+      <point x="753.0" y="1133" type="curve" smooth="yes"/>
+      <point x="753.0" y="1152"/>
+      <point x="771.0" y="1171"/>
+      <point x="804.0" y="1171" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>b</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Ydieresis</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1240</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

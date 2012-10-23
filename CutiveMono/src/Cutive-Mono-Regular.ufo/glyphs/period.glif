@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="1">
+  <advance width="1240"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="619.5" y="-16" type="curve" smooth="yes"/>
+      <point x="558.5" y="-16"/>
+      <point x="514.5" y="28"/>
+      <point x="514.5" y="89" type="curve" smooth="yes"/>
+      <point x="514.5" y="150"/>
+      <point x="559.5" y="195"/>
+      <point x="619.5" y="195" type="curve" smooth="yes"/>
+      <point x="679.5" y="195"/>
+      <point x="725.5" y="149"/>
+      <point x="725.5" y="89" type="curve" smooth="yes"/>
+      <point x="725.5" y="28"/>
+      <point x="679.5" y="-16"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>b</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>period</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1240</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

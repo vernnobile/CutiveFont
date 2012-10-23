@@ -1,0 +1,1 @@
+The design of Cutive is based on a number of classic typewriter typefaces, in particular the faces of IBM's 'Executive', and the older 'Smith-Premier'.  In Cutive these old faces re-emerge as a webfont that is useful for adding character to body texts aswell as using in larger sizes for headers and display.

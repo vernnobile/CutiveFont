@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ucircumflex" format="1">
+  <advance width="1240"/>
+  <unicode hex="00DB"/>
+  <outline>
+    <contour>
+      <point x="648.5" y="1650" type="curve" smooth="yes"/>
+      <point x="661.5" y="1650"/>
+      <point x="675.5" y="1646"/>
+      <point x="680.5" y="1638" type="curve" smooth="yes"/>
+      <point x="864.5" y="1355" type="line"/>
+      <point x="869.5" y="1350"/>
+      <point x="871.5" y="1343"/>
+      <point x="871.5" y="1338" type="curve" smooth="yes"/>
+      <point x="871.5" y="1322"/>
+      <point x="852.5" y="1309"/>
+      <point x="834.5" y="1309" type="curve" smooth="yes"/>
+      <point x="826.5" y="1309"/>
+      <point x="816.5" y="1310"/>
+      <point x="811.5" y="1318" type="curve"/>
+      <point x="648.5" y="1527" type="line"/>
+      <point x="486.5" y="1318" type="line"/>
+      <point x="481.5" y="1310"/>
+      <point x="471.5" y="1309"/>
+      <point x="463.5" y="1309" type="curve" smooth="yes"/>
+      <point x="445.5" y="1309"/>
+      <point x="426.5" y="1322"/>
+      <point x="426.5" y="1338" type="curve" smooth="yes"/>
+      <point x="426.5" y="1343"/>
+      <point x="428.5" y="1350"/>
+      <point x="433.5" y="1355" type="curve"/>
+      <point x="617.5" y="1638" type="line" smooth="yes"/>
+      <point x="622.5" y="1646"/>
+      <point x="635.5" y="1650"/>
+    </contour>
+    <contour>
+      <point x="654.0" y="-17" type="curve" smooth="yes"/>
+      <point x="415.0" y="-17"/>
+      <point x="249.0" y="142"/>
+      <point x="249.0" y="413" type="curve" smooth="yes"/>
+      <point x="249.0" y="1085" type="line"/>
+      <point x="104.0" y="1085" type="line" smooth="yes"/>
+      <point x="71.0" y="1085"/>
+      <point x="55.0" y="1106"/>
+      <point x="55.0" y="1127" type="curve" smooth="yes"/>
+      <point x="55.0" y="1149"/>
+      <point x="72.0" y="1171"/>
+      <point x="105.0" y="1171" type="curve" smooth="yes"/>
+      <point x="506.0" y="1171" type="line" smooth="yes"/>
+      <point x="539.0" y="1171"/>
+      <point x="556.0" y="1149"/>
+      <point x="556.0" y="1127" type="curve" smooth="yes"/>
+      <point x="556.0" y="1106"/>
+      <point x="540.0" y="1085"/>
+      <point x="507.0" y="1085" type="curve" smooth="yes"/>
+      <point x="345.0" y="1085" type="line"/>
+      <point x="345.0" y="413" type="line" smooth="yes"/>
+      <point x="345.0" y="195"/>
+      <point x="455.0" y="69"/>
+      <point x="654.0" y="69" type="curve" smooth="yes"/>
+      <point x="840.0" y="69"/>
+      <point x="960.0" y="211"/>
+      <point x="960.0" y="411" type="curve" smooth="yes"/>
+      <point x="960.0" y="1085" type="line"/>
+      <point x="839.0" y="1085" type="line" smooth="yes"/>
+      <point x="806.0" y="1085"/>
+      <point x="789.0" y="1106"/>
+      <point x="789.0" y="1127" type="curve" smooth="yes"/>
+      <point x="789.0" y="1149"/>
+      <point x="806.0" y="1171"/>
+      <point x="840.0" y="1171" type="curve" smooth="yes"/>
+      <point x="1173.0" y="1171" type="line" smooth="yes"/>
+      <point x="1220.0" y="1171"/>
+      <point x="1243.0" y="1149"/>
+      <point x="1243.0" y="1127" type="curve" smooth="yes"/>
+      <point x="1243.0" y="1106"/>
+      <point x="1220.0" y="1085"/>
+      <point x="1174.0" y="1085" type="curve" smooth="yes"/>
+      <point x="1056.0" y="1085" type="line"/>
+      <point x="1056.0" y="411" type="line" smooth="yes"/>
+      <point x="1056.0" y="157"/>
+      <point x="893.0" y="-17"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>b</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>Ucircumflex</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1240</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

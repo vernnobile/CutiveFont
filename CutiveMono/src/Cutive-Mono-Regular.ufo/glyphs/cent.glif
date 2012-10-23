@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cent" format="1">
+  <advance width="1240"/>
+  <unicode hex="00A2"/>
+  <outline>
+    <contour>
+      <point x="634" y="990" type="curve" smooth="yes"/>
+      <point x="661" y="990"/>
+      <point x="660" y="976"/>
+      <point x="660" y="951" type="curve" smooth="yes"/>
+      <point x="660" y="-189" type="line" smooth="yes"/>
+      <point x="660" y="-216"/>
+      <point x="657" y="-236"/>
+      <point x="634" y="-236" type="curve" smooth="yes"/>
+      <point x="610" y="-236"/>
+      <point x="607" y="-222"/>
+      <point x="607" y="-190" type="curve" smooth="yes"/>
+      <point x="607" y="951" type="line" smooth="yes"/>
+      <point x="607" y="977"/>
+      <point x="610" y="990"/>
+    </contour>
+    <component base="c"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>b</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>cent</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1240</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
