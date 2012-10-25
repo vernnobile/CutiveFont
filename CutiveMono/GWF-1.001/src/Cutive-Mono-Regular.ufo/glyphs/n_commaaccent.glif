@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncommaaccent" format="1">
+  <advance width="1240"/>
+  <unicode hex="0145"/>
+  <outline>
+    <component base="uni0326" xOffset="-18" yOffset="-347"/>
+    <component base="N"/>
+  </outline>
+</glyph>
