@@ -1,9 +1,9 @@
 SplineFontDB: 3.0
-FontName: Cutive-Mono-Regular
-FullName: Cutive-Mono Regular
-FamilyName: Cutive-Mono
+FontName: CutiveMono-Regular
+FullName: CutiveMono Regular
+FamilyName: CutiveMono
 Weight: Regular
-Copyright: Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names "Cutive-Mono"
+Copyright: Copyright (c) 2012 by vernon adams. All rights reserved.
 Version: 1.001
 ItalicAngle: 0
 UnderlinePosition: -435
@@ -21,30 +21,29 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1350682231
-ModificationTime: 1351022916
+ModificationTime: 1351205303
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
-OS2TypoAscent: 1705
+OS2TypoAscent: 1697
 OS2TypoAOffset: 0
-OS2TypoDescent: -615
+OS2TypoDescent: -558
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1705
+OS2WinAscent: 1697
 OS2WinAOffset: 0
-OS2WinDescent: 615
+OS2WinDescent: 558
 OS2WinDOffset: 0
-HheadAscent: 1705
+HheadAscent: 1697
 HheadAOffset: 0
-HheadDescent: -615
+HheadDescent: -558
 HheadDOffset: 0
 OS2Vendor: 'newt'
-OS2UnicodeRanges: a00000ef.4000204b.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "Regular" "vernon adams : Cutive-Mono Regular : 16-10-2012" "" "Version 1.002" "" "Cutive-Mono is a trademark of Vernon Adams." "Vernon Adams" "Vernon Adams" "Copyright (c) 2012 by Vernon Adams. All rights reserved." "newtypography.co.uk" "newtypography.co.uk" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "Cutive-Mono" "Regular" "Cutive-Mono Regular" 
+LangName: 1033 "" "" "" "CutiveMono Regular" "" "Version 1.002" "" "CutiveMono is a trademark of Vernon Adams." "Vernon Adams" "Vernon Adams" "Copyright (c) 2012 by Vernon Adams. All rights reserved." "http://newtypography.co.uk" "http://newtypography.co.uk" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "CutiveMono" "Regular" "CutiveMono Regular" 
 PickledData: "(dp1
 S'com.typemytype.robofont.compileSettings.autohint'
 p2
@@ -1042,21 +1041,14 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 69 23 13
-BeginPrivate: 8
-BlueScale 8 0.039625
-BlueShift 1 7
-BlueValues 25 [-17 0 774 813 1171 1187]
-OtherBlues 11 [-370 -350]
-StdHW 4 [82]
-StdVW 4 [96]
-StemSnapH 10 [74 82 86]
-StemSnapV 4 [96]
+WinInfo: 46 23 13
+BeginPrivate: 0
 EndPrivate
 Grid
 -2048 -10.25 m 0
  4096 -10.25 l 0
 EndSplineSet
+TeXData: 1 0 0 634880 317440 211626 395264 -1048576 211626 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 443 442
 
 StartChar: .notdef
@@ -14002,7 +13994,7 @@ StartChar: logicalnot
 Encoding: 107 172 239
 Width: 1240
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 PickledData: "(dp1
 S'com.typemytype.robofont.layerData'
 p2

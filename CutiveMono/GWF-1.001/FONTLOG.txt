@@ -34,7 +34,7 @@ ChangeLog
 27th March 2012 Vernon Adams Cutive v1.001
 - Initial release
 
-23rd October 2012 Vernon Adams Cutive-Mono v1.001
+23rd October 2012 Vernon Adams CutiveMono v1.001
 - Initial Release
 
 Acknowledgements
