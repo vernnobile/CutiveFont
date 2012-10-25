@@ -43,7 +43,7 @@ If you make modifications be sure to add your name (N),
 email (E), web-address (if you have one) (W) and 
 description (D). This list is in alphabetical order.
 
-N: DDD
-E: EEE
-W: 
+N: Vernon Adams
+E: vern@newtypography.co.uk
+W: http://code.newtypography.co.uk
 D: Original Type Designer
