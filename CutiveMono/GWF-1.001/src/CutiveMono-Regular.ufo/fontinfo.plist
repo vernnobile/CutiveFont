@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
 	<key>familyName</key>
-	<string>CutiveMono</string>
+	<string>Cutive Mono</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>copyright</key>
-	<string>Copyright (c) 2012 by vernon adams. All rights reserved.</string>
+	<string>Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names 'Cutive'.</string>
 	<key>trademark</key>
 	<string>CutiveMono is a trademark of Vernon Adams.</string>
 	<key>unitsPerEm</key>
@@ -41,15 +41,13 @@
 	<key>openTypeNameVersion</key>
 	<string>Version 1.002</string>
 	<key>openTypeNameUniqueID</key>
-	<string>CutiveMono Regular</string>
-	<key>openTypeNameDescription</key>
-	<string>Copyright (c) 2012 by Vernon Adams. All rights reserved.</string>
+	<string>Cutive Mono Regular Version 1.002</string>
 	<key>openTypeNamePreferedFamilyName</key>
-	<string>CutiveMono</string>
+	<string>Cutive Mono</string>
 	<key>openTypeNamePreferedSubfamilyName</key>
 	<string>Regular</string>
 	<key>openTypeNameCompatibleFullName</key>
-	<string>CutiveMono Regular</string>
+	<string>Cutive Mono</string>
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WeightClass</key>
@@ -93,7 +91,7 @@
 	<key>postscriptFontName</key>
 	<string>CutiveMono-Regular</string>
 	<key>postscriptFullName</key>
-	<string>CutiveMono Regular</string>
+	<string>Cutive Mono</string>
 	<key>postscriptWeightName</key>
 	<string>Regular</string>
 	<key>postscriptUnderlineThickness</key>
